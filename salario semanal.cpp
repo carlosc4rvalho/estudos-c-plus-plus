@@ -2,14 +2,13 @@
 #include <math.h>
 #include <locale.h>
 
-int main()
-{
-    
     // Escreva um programa que calcule o salário semanal de um trabalhador. As
     // entradas são o número de horas trabalhadas na semana e o valor da hora. Até 40
     // h/semana não se acrescenta nenhum adicional. Acima de 40h e até 60h há um
     // bônus de 50% para essas horas. Acima de 60h há um bônus de 100% para essas horas.
-    
+
+int main()
+{
     float s, h, v, acrecimo, extra, limite = 40;
     setlocale(LC_ALL, "Portuuguese");
     printf("\n digite sua carga horaria semanal:  ");
