@@ -2,12 +2,12 @@
 #include <locale.h>
 #include <math.h>
 
-int main()
-{
-    
    // Fazer um programa para receber valores inteiros X, Y e Z do usuário e determinar
    // se estes valores podem formar os lados de um triângulo. Em caso afirmativo,
    // informar se o triângulo é equilátero, isósceles ou escaleno.
+
+int main()
+{
     
     int x, y, z;
     setlocale(LC_ALL, "Portuguese");
