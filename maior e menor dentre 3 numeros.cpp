@@ -2,12 +2,12 @@
 #include <locale.h>
 #include <math.h>
 
-int main()
-{
-    
     //Fazer um programa que recebe 3 valores não inteiros do usuário e mostra o maior
     //deles, o menor deles e a média.
     
+
+int main()
+{
     int a, b, c, menor, maior;
     setlocale(LC_ALL, "Portuguese");
     printf("Digite tres valores: ");
