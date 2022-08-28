@@ -2,6 +2,11 @@
 #include <math.h>
 #include <locale.h>
 
+
+// Fazer um programa no qual o usuário vai entrando sucessivamente com valores
+// positivos. Quando o usuário entrar com um valor negativo o programa pára de
+// pedir valores e calcula a média dos valores já fornecidos.
+    
 int main()
 {
     float i, m, s = 0, c = 0;
