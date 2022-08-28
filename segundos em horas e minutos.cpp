@@ -2,12 +2,11 @@
 #include<locale.h>
 #include<math.h>
 
-int main()
-{
-    
     //Fazer um programa para receber um número inteiro de segundos do usuário e
     //imprimir a quantidade correspondente em horas, minutos e segundos.
-    
+
+int main()
+{   
     int s,m,h;
     setlocale(LC_ALL,"Portuguese");
     printf("\n digite uma quantidade de segundos:  ");
