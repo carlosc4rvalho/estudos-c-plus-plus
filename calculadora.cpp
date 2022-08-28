@@ -3,12 +3,12 @@
 #include <locale.h>
 #include <stdlib.h>
 
-int main()
-{
-    
    // Fazer um programa que recebe um símbolo de operação do usuário (+, -, / ou *) e
    // dois números reais. O programa deve retornar o resultado da operação recebida
    // sobre estes dois números.
+
+int main()
+{
     
     system("color 109");
     float n1, n2;
