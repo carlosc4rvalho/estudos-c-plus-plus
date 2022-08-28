@@ -6,6 +6,7 @@ int main(void)
     
     // Escrever um programa para ler um número inteiro do usuário e exibir o maior
     // número primo que seja menor do que o número digitado.
+    
 {
     int v[100];
     int num, i, p;
