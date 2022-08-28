@@ -2,12 +2,13 @@
 #include<locale.h>
 #include<math.h>
 
-int main()
-{
-    
+ 
     //Fazer um programa para ler um número do usuário e determinar se este número é
     //par ou não par.
     
+
+int main()
+{
     int num;
     setlocale(LC_ALL,"Portuguese");
     printf("\n digite um numero:  ");
