@@ -4,6 +4,11 @@
 
 int main()
 {
+    
+   // Fazer um programa para receber valores inteiros X, Y e Z do usuário e determinar
+   // se estes valores podem formar os lados de um triângulo. Em caso afirmativo,
+   // informar se o triângulo é equilátero, isósceles ou escaleno.
+    
     int x, y, z;
     setlocale(LC_ALL, "Portuguese");
     printf("\n digite o valor do lado x:  ");
